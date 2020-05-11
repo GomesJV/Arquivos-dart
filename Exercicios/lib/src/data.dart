@@ -5,7 +5,7 @@
 /// data está correta, caso não esteja a data é configurada como 01/01/0001.
 ///
 /// Compara: recebe como parâmetro um outro objeto da Classe data, compare com a data corrente e
-/// retorne: 0 se as datas forem iguais; 1 se a data corrente for maior que a do parâmetro; -1 se a data do ////// parâmetro for maior que a corrente.
+/// retorne: 0 se as datas forem iguais; 1 se a data corrente for maior que a do parâmetro; -1 se a data do parâmetro for maior que a corrente.
 /// 
 /// isBissexto: retorna verdadeiro se o ano da data corrente for bissexto e falso caso contrário
 /// 
