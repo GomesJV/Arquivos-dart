@@ -1,17 +1,3 @@
-/// Escreva uma classe Data cuja instância (objeto) represente uma data. Esta classe deverá dispor dos
-/// seguintes métodos:
-///
-/// Construtor: define a data que determinado objeto (através de parâmetro), este método verifica se a 
-/// data está correta, caso não esteja a data é configurada como 01/01/0001.
-///
-/// Compara: recebe como parâmetro um outro objeto da Classe data, compare com a data corrente e
-/// retorne: 0 se as datas forem iguais; 1 se a data corrente for maior que a do parâmetro; -1 se a data do parâmetro for maior que a corrente.
-/// 
-/// isBissexto: retorna verdadeiro se o ano da data corrente for bissexto e falso caso contrário
-/// 
-/// Clone: o objeto clona a si próprio, para isto, ele cria um novo objeto da classe Data com os
-/// mesmos valores de atributos e retorna sua referência pelo método.
-
 class Data {
 
   static bool validar(String dia, String mes, bool bissexto){
